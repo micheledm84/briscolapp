@@ -1,0 +1,15 @@
+.bg_state_1 {
+    background-image: url(../images/poker-table.jpg);
+}
+
+.bg_state_2 {
+    background-image: url(../images/poker-table.jpg);
+}
+
+.bg_state_3 {
+    background-color: yellow;
+}
+
+#pname {
+    text-align: center; 
+}

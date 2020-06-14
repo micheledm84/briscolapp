@@ -1910,6 +1910,47 @@ module.exports = {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Header_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Header.vue */ "./resources/js/components/Header.vue");
 /* harmony import */ var _Footer_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Footer.vue */ "./resources/js/components/Footer.vue");
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -1948,59 +1989,25 @@ __webpack_require__.r(__webpack_exports__);
     'app-footer': _Footer_vue__WEBPACK_IMPORTED_MODULE_1__["default"]
   },
   data: function data() {
-    return {
+    var _ref;
+
+    return _ref = {
+      level_player: "so-so",
+      pc_win: 0,
+      player_win: 0,
       remaining_cards: 40,
+      //remaining_cards: 6,
+      //remaining_cards: 20,
+      //remaining_cards_header: 20,
       player_cards: [],
       pc_cards: [],
       player_start: true,
+      //player_start: false,
+      //match_finished: false,
       //cards: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20'],
       //pc_cards_seen: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20'],
-      pc_cards_seen: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '25', '26', '27', '28', '29', '30', '31', '32', '33', '34', '35', '36', '37', '38', '39', '40'],
-      //cards: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10'],
-      cards: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '25', '26', '27', '28', '29', '30', '31', '32', '33', '34', '35', '36', '37', '38', '39', '40'],
-      scartelle: ['1', '2', '3', '4', '5', '11', '12', '13', '14', '15', '21', '22', '23', '24', '25', '31', '32', '33', '34', '35'],
-      punti: ['6', '7', '8', '16', '17', '18', '26', '27', '28', '36', '37', '38'],
-      carichi: ['9', '10', '19', '20', '29', '30', '39', '40'],
-      bastoni: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10'],
-      spade: ['11', '12', '13', '14', '15', '16', '17', '18', '19', '20'],
-      denari: ['21', '22', '23', '24', '25', '26', '27', '28', '29', '30'],
-      coppe: ['31', '32', '33', '34', '35', '36', '37', '38', '39', '40'],
-      tre: ['9', '19', '29', '39'],
-      assi: ['10', '20', '30', '40'],
-      fanti: ['6', '16', '26', '36'],
-      cavalli: ['7', '17', '27', '37'],
-      re: ['8', '18', '28', '38'],
-      briscole: [],
-      player_points: 0,
-      pc_points: 0,
-      //turn_points: 0,
-      nav_comment: "Have a nice start!",
-      pack_cards_invisible: false,
-      pc_game_rel: "0",
-      pc_game_src: "images/retro.jpg",
-      pc_game_invisible: true,
-      player_left_invisible: false,
-      player_center_invisible: false,
-      player_right_invisible: false,
-      player_game_rel: "0",
-      player_game_src: "images/retro.jpg",
-      player_game_invisible: true,
-      player_left_src: "images/retro.jpg",
-      player_center_src: "images/retro.jpg",
-      player_right_src: "images/retro.jpg",
-      player_left_rel: "0",
-      player_center_rel: "0",
-      player_right_rel: "0",
-      pc_left_rel: "0",
-      pc_center_rel: "0",
-      pc_right_rel: "0",
-      pc_left_invisible: false,
-      pc_center_invisible: false,
-      pc_right_invisible: false,
-      game_briscola_rel: "0",
-      game_briscola_src: "images/retro.jpg",
-      game_briscola_invisible: true
-    };
+      pc_cards_seen: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '25', '26', '27', '28', '29', '30', '31', '32', '33', '34', '35', '36', '37', '38', '39', '40']
+    }, _defineProperty(_ref, "pc_cards_seen", ['17', '25', '7']), _defineProperty(_ref, "cards", ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '25', '26', '27', '28', '29', '30', '31', '32', '33', '34', '35', '36', '37', '38', '39', '40']), _defineProperty(_ref, "scartelle", ['1', '2', '3', '4', '5', '11', '12', '13', '14', '15', '21', '22', '23', '24', '25', '31', '32', '33', '34', '35']), _defineProperty(_ref, "punti", ['6', '7', '8', '16', '17', '18', '26', '27', '28', '36', '37', '38']), _defineProperty(_ref, "carichi", ['9', '10', '19', '20', '29', '30', '39', '40']), _defineProperty(_ref, "bastoni", ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10']), _defineProperty(_ref, "spade", ['11', '12', '13', '14', '15', '16', '17', '18', '19', '20']), _defineProperty(_ref, "denari", ['21', '22', '23', '24', '25', '26', '27', '28', '29', '30']), _defineProperty(_ref, "coppe", ['31', '32', '33', '34', '35', '36', '37', '38', '39', '40']), _defineProperty(_ref, "tre", ['9', '19', '29', '39']), _defineProperty(_ref, "assi", ['10', '20', '30', '40']), _defineProperty(_ref, "fanti", ['6', '16', '26', '36']), _defineProperty(_ref, "cavalli", ['7', '17', '27', '37']), _defineProperty(_ref, "re", ['8', '18', '28', '38']), _defineProperty(_ref, "player_points", 0), _defineProperty(_ref, "pc_points", 0), _defineProperty(_ref, "nav_comment", "Have a nice start!"), _defineProperty(_ref, "pack_cards_invisible", false), _defineProperty(_ref, "pc_game_rel", "0"), _defineProperty(_ref, "pc_game_src", "images/retro.jpg"), _defineProperty(_ref, "pc_game_invisible", true), _defineProperty(_ref, "player_left_invisible", false), _defineProperty(_ref, "player_center_invisible", false), _defineProperty(_ref, "player_right_invisible", false), _defineProperty(_ref, "player_game_rel", "0"), _defineProperty(_ref, "player_game_src", "images/retro.jpg"), _defineProperty(_ref, "player_game_invisible", true), _defineProperty(_ref, "player_left_src", "images/retro.jpg"), _defineProperty(_ref, "player_center_src", "images/retro.jpg"), _defineProperty(_ref, "player_right_src", "images/retro.jpg"), _defineProperty(_ref, "player_left_rel", "0"), _defineProperty(_ref, "player_center_rel", "0"), _defineProperty(_ref, "player_right_rel", "0"), _defineProperty(_ref, "pc_left_rel", "0"), _defineProperty(_ref, "pc_center_rel", "0"), _defineProperty(_ref, "pc_right_rel", "0"), _defineProperty(_ref, "pc_left_invisible", false), _defineProperty(_ref, "pc_center_invisible", false), _defineProperty(_ref, "pc_right_invisible", false), _defineProperty(_ref, "game_briscola_rel", "0"), _defineProperty(_ref, "game_briscola_src", "images/retro.jpg"), _defineProperty(_ref, "game_briscola_invisible", true), _defineProperty(_ref, "briscola_sign", 0), _defineProperty(_ref, "state", '1'), _defineProperty(_ref, "colorChosen", 'bg_state_1'), _defineProperty(_ref, "name_user", ""), _ref;
   },
   mounted: function mounted() {
     var arr_len = 0;
@@ -2018,25 +2025,85 @@ __webpack_require__.r(__webpack_exports__);
       this.cards.splice(arr_num, 1);
       i++;
     }
+    /*this.player_left_src = this.num_to_src('25');
+    this.player_center_src = this.num_to_src('17');
+    this.player_right_src = this.num_to_src('7');
+    this.game_briscola_src = this.num_to_src('25');;
+    this.game_briscola_rel = '25';
+    this.game_briscola_invisible = true;
+    this.player_left_rel = '25';
+    this.player_center_rel = '17';
+    this.player_right_rel = '7';
+    this.pc_left_rel = '31';
+    this.pc_center_rel = '15';
+    this.pc_right_rel = '5';*/
+
 
     this.player_left_src = arr_images[0];
     this.player_center_src = arr_images[1];
     this.player_right_src = arr_images[2];
     this.game_briscola_src = arr_images[6];
     this.game_briscola_rel = arr_rels[6];
-    this.game_briscola_invisible = false;
+    this.game_briscola_invisible = false; //this.game_briscola_invisible = true;
+
     this.player_left_rel = arr_rels[0];
     this.player_center_rel = arr_rels[1];
     this.player_right_rel = arr_rels[2];
     this.pc_left_rel = arr_rels[3];
     this.pc_center_rel = arr_rels[4];
-    this.pc_right_rel = arr_rels[5];
-    this.remaining_cards = 34;
+    this.pc_right_rel = arr_rels[5]; //this.remaining_cards = 34;
+    //this.remaining_cards = 14;
+    //this.remaining_cards = 20;
+
     this.create_briscole();
     this.remove_pc_by_rel(this.pc_left_rel);
     this.remove_pc_by_rel(this.pc_center_rel);
     this.remove_pc_by_rel(this.pc_right_rel);
     this.remove_pc_by_rel(this.game_briscola_rel);
+    /*this.$root.$on('body-background-color', function(color) {
+    //handle the background color change here  
+    });*/
+    //if (this.state == '1') {
+
+    this.colorChosen = 'bg_state_1';
+    document.body.className = this.colorChosen; //this.pc_start();
+
+    /*} else if (this.state == '2') {
+        this.colorChosen = 'bc-header-green';
+        document.body.className = this.colorChosen;
+    } else {
+        this.colorChosen = 'bc-header-yellow';
+        document.body.className = this.colorChosen;
+    }*/
+    //this.colorChosen = 'bc-header-red';
+    //this.handleColorChoice();
+    //this.$root.$on('body-background-color', function(color) {
+
+    /*this.color = 'bc-header-red';
+    document.body.className = this.color;*/
+
+    /*if (this.state == '1') {
+        this.color = 'bc-header-red';
+        document.body.className = this.color;
+    } else if (this.state == '2') {
+        this.color = 'bc-header-green';
+        document.body.className = this.color;
+    } else {
+        this.color = 'bc-header-yellow';
+        document.body.className = this.color;
+    }
+    })*/
+  },
+  //var message = "PC " + this.pc_points + " - " + "PLAYER " + this.player_points;
+  computed: {
+    footer_score: function footer_score() {
+      var message = "PC " + " - " + this.name_user + " " + this.pc_win + "-" + this.player_win;
+      return message;
+    },
+    final_score: function final_score() {
+      var message = "PC " + " - " + this.name_user + " " + this.pc_points + "-" + this.player_points;
+      return message;
+    }
   },
   methods: {
     remove_pc_by_rel: function remove_pc_by_rel(rel_pc) {
@@ -2051,16 +2118,120 @@ __webpack_require__.r(__webpack_exports__);
     create_briscole: function create_briscole() {
       if (this.denari.includes(this.game_briscola_rel)) {
         this.briscole = this.denari;
+        this.briscola_sign = 3;
       } else if (this.bastoni.includes(this.game_briscola_rel)) {
         this.briscole = this.bastoni;
+        this.briscola_sign = 1;
       } else if (this.spade.includes(this.game_briscola_rel)) {
         this.briscole = this.spade;
+        this.briscola_sign = 2;
       } else {
         this.briscole = this.coppe;
+        this.briscola_sign = 4;
       }
     },
+    change_state: function change_state(state_number) {
+      if (this.name_user != '') {
+        if (state_number == '1') {
+          this.state = '1';
+        } else if (state_number == '2') {
+          this.state = '2';
+        } else {
+          this.state = '3';
+        }
+      } else {
+        this.state = '1';
+      } //alert(this.state);
+
+    },
+    change_state_restart: function change_state_restart() {
+      //vm.$forceUpdate();
+      this.player_start = false;
+      this.pc_points = 0;
+      this.player_points = 0;
+      this.remaining_cards = 40; //this.match_finished = false;
+
+      this.pc_cards_seen = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '25', '26', '27', '28', '29', '30', '31', '32', '33', '34', '35', '36', '37', '38', '39', '40'], this.cards = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '25', '26', '27', '28', '29', '30', '31', '32', '33', '34', '35', '36', '37', '38', '39', '40'], this.pack_cards_invisible = false;
+      this.pc_game_rel = "0";
+      this.pc_game_src = "images/retro.jpg";
+      this.pc_game_invisible = true;
+      this.player_left_invisible = false;
+      this.player_center_invisible = false;
+      this.player_right_invisible = false;
+      this.player_game_rel = "0";
+      this.player_game_src = "images/retro.jpg";
+      this.player_game_invisible = true;
+      this.player_left_src = "images/retro.jpg";
+      this.player_center_src = "images/retro.jpg";
+      this.player_right_src = "images/retro.jpg";
+      this.player_left_rel = "0";
+      this.player_center_rel = "0";
+      this.player_right_rel = "0";
+      this.pc_left_rel = "0";
+      this.pc_center_rel = "0";
+      this.pc_right_rel = "0";
+      this.pc_left_invisible = false;
+      this.pc_center_invisible = false;
+      this.pc_right_invisible = false;
+      this.game_briscola_rel = "0";
+      this.game_briscola_src = "images/retro.jpg";
+      this.game_briscola_invisible = true;
+      this.briscola_sign = 0;
+      this.state = '2';
+      this.mounted_state_2_again();
+    },
+    mounted_state_2_again: function mounted_state_2_again() {
+      var arr_len = 0;
+      var i = 1;
+      var arr_num = 0;
+      var arr_images = [];
+      var arr_rels = [];
+
+      while (i <= 7) {
+        arr_len = this.cards.length;
+        arr_num = Math.floor(Math.random() * arr_len);
+        var src_image = this.num_to_src(this.cards[arr_num]);
+        arr_rels.push(this.cards[arr_num]);
+        arr_images.push(src_image);
+        this.cards.splice(arr_num, 1);
+        i++;
+      }
+
+      this.player_left_src = arr_images[0];
+      this.player_center_src = arr_images[1];
+      this.player_right_src = arr_images[2];
+      this.game_briscola_src = arr_images[6];
+      this.game_briscola_rel = arr_rels[6];
+      this.game_briscola_invisible = false;
+      this.player_left_rel = arr_rels[0];
+      this.player_center_rel = arr_rels[1];
+      this.player_right_rel = arr_rels[2];
+      this.pc_left_rel = arr_rels[3];
+      this.pc_center_rel = arr_rels[4];
+      this.pc_right_rel = arr_rels[5];
+      this.create_briscole();
+      this.remove_pc_by_rel(this.pc_left_rel);
+      this.remove_pc_by_rel(this.pc_center_rel);
+      this.remove_pc_by_rel(this.pc_right_rel);
+      this.remove_pc_by_rel(this.game_briscola_rel);
+      this.nav_comment = "Have a nice start!";
+      var sum_matches = this.player_win + this.pc_win;
+
+      if (sum_matches % 2 === 0) {
+        this.player_start = true;
+      } else {
+        this.pc_start();
+      } //this.colorChosen = 'bg_state_1';
+      //document.body.className = this.colorChosen;
+
+    },
     play: function play(event) {
-      this.nav_comment = "Have you a nice play!";
+      /*if (this.remaining_cards == '7' || this.remaining_cards == '5' || this.remaining_cards == '6') {
+          this.nav_comment = "LAST ROUND";
+      } else {
+          //alert(this.remaining_cards + ' 1')
+          this.nav_comment = "Have you a nice play!";
+      }*/
       var src_image = this.num_to_src(event.target.getAttribute("rel"));
 
       if (this.player_game_invisible === true) {
@@ -2075,6 +2246,7 @@ __webpack_require__.r(__webpack_exports__);
         this.player_game_src = src_image;
         this.player_game_rel = event.target.getAttribute("rel");
         this.player_game_invisible = false;
+        this.remaining_cards--;
 
         if (this.player_start) {
           this.pc_answer();
@@ -2084,6 +2256,7 @@ __webpack_require__.r(__webpack_exports__);
       }
     },
     pc_answer: function pc_answer() {
+      this.remaining_cards--;
       var pc_rels = [];
       var pc_rels_core = [];
 
@@ -2105,6 +2278,61 @@ __webpack_require__.r(__webpack_exports__);
         pc_rels_core.push(this.pc_right_rel);
       }
 
+      if (this.remaining_cards == 6) {
+        //this.nav_comment = "LAST ROUND";
+        if (this.assi.includes(this.game_briscola_rel) || this.tre.includes(this.game_briscola_rel) || this.highest_by_sign(this.game_briscola_rel)) {
+          //alert("last round not win good briscola 1");
+          if (this.move_not_win_last_round(pc_rels_core, pc_rels)) {
+            //alert("last round not win good briscola 2");
+            return;
+          }
+        } else {
+          if (!this.assi.includes(this.player_game_rel) && !this.tre.includes(this.player_game_rel)) {
+            if (this.move_not_win_last_round(pc_rels_core, pc_rels)) {
+              //alert("last round not win not good player game");
+              return;
+            }
+          }
+        } //alert("last round pc answer");
+
+      }
+
+      if (this.remaining_cards == 4) {
+        //alert("first last round pc answer");
+
+        /*if (this.move_scartella_different(pc_rels)) {
+            alert("move_scartella_different");
+            return;
+        } else if(this.move_fante_different(pc_rels)) {
+            alert("move_fante_different");
+            return;
+        } else if(this.move_cavallo_different(pc_rels)) {
+            alert("move_cavallo_different");
+            return;
+        } else if(this.move_re_different(pc_rels)) {
+            alert("move_re_different");
+            return;
+        } else if(this.move_same_sign_lower_answer(pc_rels_core, pc_rels)) {
+            alert("move_same_sign_lower_answer");
+            return;
+        } else */
+        if (this.choose_first_final_round_answer(pc_rels_core, pc_rels)) {
+          //alert("first choice pc answer done");
+          return;
+        } //alert(pc_rels);
+        //alert(pc_rels_core);
+        //this.choose_card_last_round_answer(pc_rels_core, pc_rels);
+
+      }
+
+      if (this.remaining_cards == 2) {
+        //alert(pc_rels);
+        //alert(pc_rels_core);
+        this.choose_card_last_round_answer(pc_rels_core, pc_rels); //alert("last choice pc answer");
+
+        return;
+      }
+
       if (this.move_against_briscola_tre(pc_rels_core, pc_rels)) {
         return;
       } else if (this.move_against_briscola_asso(pc_rels_core, pc_rels)) {
@@ -2124,6 +2352,239 @@ __webpack_require__.r(__webpack_exports__);
         return;
       }
     },
+    choose_first_final_round_answer: function choose_first_final_round_answer(pc_rels_core, pc_rels) {
+      var i = 0;
+      var player_asso_briscola = false;
+
+      for (i = 0; i < this.pc_cards_seen.length; i++) {
+        if (this.briscole.includes(this.pc_cards_seen[i]) && this.assi.includes(this.pc_cards_seen[i])) {
+          player_asso_briscola = true;
+        }
+      }
+
+      var i = 0;
+      var pc_tre_briscola = false;
+      var pc_tre_rel = "100";
+
+      for (i = 0; i < pc_rels_core.length; i++) {
+        if (this.briscole.includes(pc_rels_core[i]) && this.tre.includes(pc_rels_core[i])) {
+          pc_tre_briscola = true;
+          pc_tre_rel = pc_rels_core[i];
+        }
+      }
+
+      if (!this.briscole.includes(this.player_game_rel)) {
+        if (!this.have_carichi_above(pc_rels_core, this.player_game_rel) && player_asso_briscola && pc_tre_briscola && !this.tre.includes(this.player_game_rel) && !this.assi.includes(this.player_game_rel)) {
+          if (this.move_scartella_different(pc_rels)) {
+            //alert("move_scartella_different");
+            return true;
+          } else if (this.move_fante_different(pc_rels)) {
+            //alert("move_fante_different");
+            return true;
+          } else if (this.move_cavallo_different(pc_rels)) {
+            //alert("move_cavallo_different");
+            return true;
+          } else if (this.move_re_different(pc_rels)) {
+            //alert("move_re_different");
+            return true;
+          } else if (this.move_same_sign_lower_answer(pc_rels_core, pc_rels)) {
+            //alert("move_same_sign_lower_answer");
+            return true;
+          } else {
+            //alert(pc_tre_rel);
+            //alert(pc_rels_core);
+            //alert(this.pc_cards_seen);
+            this.pc_position_invisible_true(pc_rels, String(pc_tre_rel));
+            this.pc_game_invisible_false(String(pc_tre_rel)); //alert("tre against asso briscola");
+
+            return true;
+          }
+          /*alert(pc_tre_rel);
+          alert(pc_rels_core);
+          alert(this.pc_cards_seen);
+          this.pc_position_invisible_true(pc_rels, String(pc_tre_rel));
+          this.pc_game_invisible_false(String(pc_tre_rel));
+          alert("tre against asso briscola");
+          return true;*/
+
+        }
+      }
+    },
+    move_same_sign_lower_answer: function move_same_sign_lower_answer(pc_rels_core, pc_rels) {
+      var arr_lower = [];
+      var sign_card = this.find_sign(this.player_game_rel);
+      var i = 0;
+
+      for (i = 0; i < pc_rels_core.length; i++) {
+        if (this.find_sign(pc_rels_core[i]) == sign_card && parseInt(pc_rels_core[i]) < parseInt(this.player_game_rel) && !this.tre.includes(pc_rels_core[i])) {
+          //player_asso_briscola = true;
+          arr_lower.push(pc_rels_core[i]);
+          arr_lower.sort();
+        }
+      }
+
+      if (arr_lower.length > 0) {
+        this.pc_position_invisible_true(pc_rels, String(arr_lower[0]));
+        this.pc_game_invisible_false(String(arr_lower[0])); //alert("lower same sign to loose");
+
+        return true;
+      }
+    },
+    have_carichi_above: function have_carichi_above(pc_rels_core, card_to_check) {
+      var sign_card = this.find_sign(card_to_check);
+      var i = 0;
+
+      for (i = 0; i < pc_rels_core.length; i++) {
+        if (this.find_sign(pc_rels_core[i]) == sign_card && (this.assi.includes(pc_rels_core[i]) || this.tre.includes(pc_rels_core[i])) && parseInt(pc_rels_core[i]) > parseInt(card_to_check)) {
+          //player_asso_briscola = true;
+          return true;
+        }
+      }
+    },
+    choose_card_last_round_answer: function choose_card_last_round_answer(pc_rels_core, pc_rels) {
+      var scenario_one = this.total_points_win(pc_rels_core[0], pc_rels_core[1]);
+      var scenario_two = this.total_points_win(pc_rels_core[1], pc_rels_core[0]); //alert (scenario_one);
+      //alert (scenario_two);
+
+      if (scenario_one > scenario_two) {
+        this.pc_position_invisible_true(pc_rels, String(pc_rels_core[0]));
+        this.pc_game_invisible_false(String(pc_rels_core[0])); //alert(scenario_one);
+      } else {
+        this.pc_position_invisible_true(pc_rels, String(pc_rels_core[1]));
+        this.pc_game_invisible_false(String(pc_rels_core[1])); //alert(scenario_two);
+      }
+    },
+    total_points_win: function total_points_win(card_pc_first, card_pc_second) {
+      var i = 0;
+
+      for (i = 0; i < this.pc_cards_seen.length; i++) {
+        if (this.pc_cards_seen[i] != this.player_game_rel) {
+          var last_card_player = this.pc_cards_seen[i];
+        }
+      } //var last_card_player = this.pc_cards_seen[0];
+
+
+      var points_first_round = this.who_win_last_round(card_pc_first, this.player_game_rel, 2);
+
+      if (points_first_round != "-1") {
+        var points_second_round = this.who_win_last_round(card_pc_second, last_card_player, 1);
+      } else {
+        var points_second_round = this.who_win_last_round(card_pc_second, last_card_player, 2);
+      }
+
+      if (points_first_round === "-1") {
+        points_first_round = 0;
+      }
+
+      if (points_second_round === "-1") {
+        points_second_round = 0;
+      }
+
+      return points_first_round + points_second_round;
+    },
+    who_win_last_round: function who_win_last_round(card_pc, card_player, who_start) {
+      //var return_arr_points = [];
+      var sign_pc = this.find_sign(card_pc);
+      var sign_player = this.find_sign(card_player);
+
+      if (sign_pc === sign_player) {
+        if (parseInt(card_pc) > parseInt(card_player)) {
+          return this.add_points(card_pc) + this.add_points(card_player);
+        } else {
+          return "-1";
+        }
+      } else if (sign_pc == this.briscola_sign) {
+        return this.add_points(card_pc) + this.add_points(card_player);
+      } else if (sign_player == this.briscola_sign) {
+        return "-1";
+      } else {
+        if (who_start == 1) {
+          return this.add_points(card_pc) + this.add_points(card_player);
+        } else {
+          return "-1";
+        }
+      }
+    },
+    move_not_win_last_round: function move_not_win_last_round(pc_rels_core, pc_rels) {
+      if (this.briscole.includes(this.player_game_rel)) {
+        var i = 0;
+        var min_value = 100;
+
+        for (i = 0; i < pc_rels_core.length; i++) {
+          if (!this.briscole.includes(pc_rels_core[i])) {
+            if (this.real_value_card(pc_rels_core[i]) < min_value) {
+              min_value = this.real_value_card(pc_rels_core[i]);
+            }
+          }
+        }
+
+        if (min_value == 100) {
+          var i = 0;
+          var min_value = 100;
+
+          for (i = 0; i < pc_rels_core.length; i++) {
+            if (this.real_value_card(pc_rels_core[i]) < min_value) {
+              min_value = this.real_value_card(pc_rels_core[i]);
+            }
+          }
+
+          for (i = 0; i < pc_rels_core.length; i++) {
+            if (this.real_value_card(pc_rels_core[i]) == min_value) {
+              this.pc_position_invisible_true(pc_rels, String(pc_rels_core[i]));
+              this.pc_game_invisible_false(String(pc_rels_core[i])); //alert('move briscola lower');
+
+              return true;
+            }
+          }
+        } else {
+          var i = 0;
+
+          for (i = 0; i < pc_rels_core.length; i++) {
+            if (this.real_value_card(pc_rels_core[i]) == min_value) {
+              this.pc_position_invisible_true(pc_rels, String(pc_rels_core[i]));
+              this.pc_game_invisible_false(String(pc_rels_core[i])); //alert('move different sign loose');
+
+              return true;
+            }
+          }
+        }
+      } else {
+        var arr_real_values = [this.real_value_card(pc_rels_core[0]), this.real_value_card(pc_rels_core[1]), this.real_value_card(pc_rels_core[2])];
+        arr_real_values.sort(function (a, b) {
+          return a - b;
+        });
+        var sign_card_game = this.find_sign(this.player_game_rel);
+        var i = 0;
+        var z = 0;
+
+        for (i = 0; i < arr_real_values.length; i++) {
+          for (z = 0; z < pc_rels_core.length; z++) {
+            if (arr_real_values[i] == this.real_value_card(pc_rels_core[z]) && !this.briscole.includes(pc_rels_core[z])) {
+              if (sign_card_game == this.find_sign(pc_rels_core[z])) {
+                if (parseInt(pc_rels_core[z]) < parseInt(this.player_game_rel)) {
+                  this.pc_position_invisible_true(pc_rels, String(pc_rels_core[z]));
+                  this.pc_game_invisible_false(String(pc_rels_core[z])); //alert('move same sign lower loose');
+
+                  return true;
+                }
+              } else {
+                this.pc_position_invisible_true(pc_rels, String(pc_rels_core[z]));
+                this.pc_game_invisible_false(String(pc_rels_core[z])); //alert('move different sign loose');
+
+                return true;
+              }
+            }
+          }
+        }
+      }
+    },
+
+    /*move_win_last_round(pc_rels_core, pc_rels) {
+        if(this.briscole.includes(this.player_game_rel)) {
+          } else {
+            
+        }
+    },*/
     move_against_scartella: function move_against_scartella(pc_rels_core, pc_rels) {
       if (this.scartelle.includes(this.player_game_rel)) {
         //alert('move against scartella');
@@ -2353,20 +2814,28 @@ __webpack_require__.r(__webpack_exports__);
       return sign_card;
     },
     move_against_briscola_little: function move_against_briscola_little(pc_rels_core, pc_rels) {
+      //alert("move_against_briscola_little");
       if (this.briscole.includes(this.player_game_rel)) {
         if (this.move_scartella(pc_rels)) {
+          //alert("move_scartella");
           return true;
         } else if (this.move_fante(pc_rels)) {
+          //alert("move_fante");
           return true;
         } else if (this.move_cavallo(pc_rels)) {
+          //alert("move_cavallo");
           return true;
         } else if (this.move_re(pc_rels)) {
-          return true;
-        } else if (this.move_briscola(pc_rels)) {
+          //alert("move_re");
+          return true; //} else if (this.move_briscola(pc_rels)) {
+        } else if (this.move_lowest_briscola(pc_rels)) {
+          //alert("move_lowest_briscola"); //move_lowest_briscola (pc_rels)
           return true;
         } else if (this.move_tre(pc_rels)) {
+          //alert("move_tre");
           return true;
         } else if (this.move_asso(pc_rels)) {
+          //alert("move_asso");
           return true;
         } else {
           return false;
@@ -2453,6 +2922,57 @@ __webpack_require__.r(__webpack_exports__);
         var pc_rel_invisible = card_rel.split("_");
 
         if (this.scartelle.includes(pc_rel_invisible[1]) && !this.briscole.includes(pc_rel_invisible[1]) && !same_arr.includes(pc_rel_invisible[1])) {
+          this.pc_position_invisible_true(pc_rels, pc_rel_invisible[1]);
+          this.pc_game_invisible_false(pc_rel_invisible[1]); //alert('scartella against scartella different');
+
+          return true;
+        }
+      }
+    },
+    move_fante_different: function move_fante_different(pc_rels) {
+      var i = 0;
+      var sign_card = this.find_sign(this.player_game_rel);
+      var same_arr = this.find_cards_sign(sign_card); //alert(same_arr);
+
+      for (i = 0; i < pc_rels.length; i++) {
+        var card_rel = pc_rels[i];
+        var pc_rel_invisible = card_rel.split("_");
+
+        if (this.fanti.includes(pc_rel_invisible[1]) && !this.briscole.includes(pc_rel_invisible[1]) && !same_arr.includes(pc_rel_invisible[1])) {
+          this.pc_position_invisible_true(pc_rels, pc_rel_invisible[1]);
+          this.pc_game_invisible_false(pc_rel_invisible[1]); //alert('scartella against scartella different');
+
+          return true;
+        }
+      }
+    },
+    move_cavallo_different: function move_cavallo_different(pc_rels) {
+      var i = 0;
+      var sign_card = this.find_sign(this.player_game_rel);
+      var same_arr = this.find_cards_sign(sign_card); //alert(same_arr);
+
+      for (i = 0; i < pc_rels.length; i++) {
+        var card_rel = pc_rels[i];
+        var pc_rel_invisible = card_rel.split("_");
+
+        if (this.cavalli.includes(pc_rel_invisible[1]) && !this.briscole.includes(pc_rel_invisible[1]) && !same_arr.includes(pc_rel_invisible[1])) {
+          this.pc_position_invisible_true(pc_rels, pc_rel_invisible[1]);
+          this.pc_game_invisible_false(pc_rel_invisible[1]); //alert('scartella against scartella different');
+
+          return true;
+        }
+      }
+    },
+    move_re_different: function move_re_different(pc_rels) {
+      var i = 0;
+      var sign_card = this.find_sign(this.player_game_rel);
+      var same_arr = this.find_cards_sign(sign_card); //alert(same_arr);
+
+      for (i = 0; i < pc_rels.length; i++) {
+        var card_rel = pc_rels[i];
+        var pc_rel_invisible = card_rel.split("_");
+
+        if (this.re.includes(pc_rel_invisible[1]) && !this.briscole.includes(pc_rel_invisible[1]) && !same_arr.includes(pc_rel_invisible[1])) {
           this.pc_position_invisible_true(pc_rels, pc_rel_invisible[1]);
           this.pc_game_invisible_false(pc_rel_invisible[1]); //alert('scartella against scartella different');
 
@@ -2550,7 +3070,7 @@ __webpack_require__.r(__webpack_exports__);
         var card_rel = pc_rels[i];
         var pc_rel_invisible = card_rel.split("_");
 
-        if (!this.tre.includes(pc_rel_invisible[1]) && this.briscole.includes(pc_rel_invisible[1])) {
+        if (!this.assi.includes(pc_rel_invisible[1]) && !this.tre.includes(pc_rel_invisible[1]) && this.briscole.includes(pc_rel_invisible[1])) {
           var briscole_array = [];
           var z = 0;
 
@@ -2558,7 +3078,7 @@ __webpack_require__.r(__webpack_exports__);
             var card_rel = pc_rels[z];
             var pc_rel_invisible = card_rel.split("_");
 
-            if (!this.tre.includes(pc_rel_invisible[1]) && this.briscole.includes(pc_rel_invisible[1])) {
+            if (!this.assi.includes(pc_rel_invisible[1]) && !this.tre.includes(pc_rel_invisible[1]) && this.briscole.includes(pc_rel_invisible[1])) {
               briscole_array.push(pc_rel_invisible[1]);
             }
           }
@@ -2647,7 +3167,7 @@ __webpack_require__.r(__webpack_exports__);
       this.pc_game_invisible = false;
     },
     random_answer_pc: function random_answer_pc(pc_rels) {
-      alert('random answer');
+      //alert('random answer');
       var arr_len = pc_rels.length;
       var arr_num = Math.floor(Math.random() * arr_len);
       var pc_arr_invisible = pc_rels[arr_num];
@@ -2674,8 +3194,9 @@ __webpack_require__.r(__webpack_exports__);
           this.player_cards.push(this.player_game_rel);
           this.player_cards.push(this.pc_game_rel);
           this.player_start = true;
-          this.sum_points("player", this.player_game_rel, this.pc_game_rel);
-          this.nav_comment = "Nice move!";
+          this.sum_points("player", this.player_game_rel, this.pc_game_rel); //this.nav_comment = "Nice move!";
+
+          this.nav_comment = this.positive_nav_comment();
           setTimeout(function () {
             _this.played_cards_invisible();
           }, 3000);
@@ -2683,8 +3204,9 @@ __webpack_require__.r(__webpack_exports__);
           this.pc_cards.push(this.player_game_rel);
           this.pc_cards.push(this.pc_game_rel);
           this.player_start = false;
-          this.sum_points("pc", this.player_game_rel, this.pc_game_rel);
-          this.nav_comment = "Oh nooooo!";
+          this.sum_points("pc", this.player_game_rel, this.pc_game_rel); //this.nav_comment = "Oh nooooo!";
+
+          this.nav_comment = this.negative_nav_comment();
           setTimeout(function () {
             _this.played_cards_invisible();
           }, 3000);
@@ -2692,8 +3214,9 @@ __webpack_require__.r(__webpack_exports__);
       } else if (card_sign - this.player_game_rel < 10 && card_sign - this.player_game_rel >= 0 && !(card_sign - this.pc_game_rel < 10 && card_sign - this.pc_game_rel >= 0)) {
         this.player_cards.push(this.player_game_rel);
         this.player_cards.push(this.pc_game_rel);
-        this.player_start = true;
-        this.nav_comment = "Nice move!";
+        this.player_start = true; //this.nav_comment = "Nice move!";
+
+        this.nav_comment = this.positive_nav_comment();
         this.sum_points("player", this.player_game_rel, this.pc_game_rel);
         setTimeout(function () {
           _this.played_cards_invisible();
@@ -2701,8 +3224,9 @@ __webpack_require__.r(__webpack_exports__);
       } else if (!(card_sign - this.player_game_rel < 10 && card_sign - this.player_game_rel >= 0) && card_sign - this.pc_game_rel < 10 && card_sign - this.pc_game_rel >= 0) {
         this.pc_cards.push(this.player_game_rel);
         this.pc_cards.push(this.pc_game_rel);
-        this.player_start = false;
-        this.nav_comment = "Oh nooooo!";
+        this.player_start = false; //this.nav_comment = "Oh nooooo!";
+
+        this.nav_comment = this.negative_nav_comment();
         this.sum_points("pc", this.player_game_rel, this.pc_game_rel);
         setTimeout(function () {
           _this.played_cards_invisible();
@@ -2711,8 +3235,9 @@ __webpack_require__.r(__webpack_exports__);
         if (this.player_start) {
           this.player_cards.push(this.player_game_rel);
           this.player_cards.push(this.pc_game_rel);
-          this.player_start = true;
-          this.nav_comment = "Nice move!";
+          this.player_start = true; //this.nav_comment = "Nice move!";
+
+          this.nav_comment = this.positive_nav_comment();
           this.sum_points("player", this.player_game_rel, this.pc_game_rel);
           setTimeout(function () {
             _this.played_cards_invisible();
@@ -2720,8 +3245,9 @@ __webpack_require__.r(__webpack_exports__);
         } else {
           this.pc_cards.push(this.player_game_rel);
           this.pc_cards.push(this.pc_game_rel);
-          this.player_start = false;
-          this.nav_comment = "Oh nooooo!";
+          this.player_start = false; //this.nav_comment = "Oh nooooo!";
+
+          this.nav_comment = this.negative_nav_comment();
           this.sum_points("pc", this.player_game_rel, this.pc_game_rel);
           setTimeout(function () {
             _this.played_cards_invisible();
@@ -2729,12 +3255,37 @@ __webpack_require__.r(__webpack_exports__);
         }
       }
     },
+    positive_nav_comment: function positive_nav_comment() {
+      /*if (this.remaining_cards == '7' || this.remaining_cards == '6') {
+          return 'LAST ROUND';
+      }*/
+      var nav_comments = ["Nice move!", "Awesome!", ":D", "Are you a master?"];
+      var nav_comments_len = nav_comments.length;
+      var arr_num = Math.floor(Math.random() * nav_comments_len);
+      return nav_comments[arr_num];
+    },
+    negative_nav_comment: function negative_nav_comment() {
+      /*if (this.remaining_cards == '7' || this.remaining_cards == '6') {
+          return 'LAST ROUND';
+      }*/
+      var nav_comments = ["Oh nooooo!", ":(", "SOB", "Not a good move man!"];
+      var nav_comments_len = nav_comments.length;
+      var arr_num = Math.floor(Math.random() * nav_comments_len);
+      return nav_comments[arr_num];
+    },
     played_cards_invisible: function played_cards_invisible() {
       this.player_game_invisible = true;
       this.pc_game_invisible = true;
       this.remove_pc_by_rel(this.player_game_rel);
       this.check_invisible_cards();
-      this.nav_comment = "Have a nice play!";
+
+      if (this.remaining_cards == '8' || this.remaining_cards == '7') {
+        this.nav_comment = "LAST ROUND";
+      } else {
+        //alert(this.remaining_cards + ' 1')
+        this.nav_comment = "Have a nice play!";
+      } //this.nav_comment = "Have a nice play!";
+
     },
     check_invisible_cards: function check_invisible_cards() {
       if (this.player_start) {
@@ -2838,8 +3389,7 @@ __webpack_require__.r(__webpack_exports__);
             break;
         }
 
-        this.cards.splice(arr_num, 1);
-        this.remaining_cards--;
+        this.cards.splice(arr_num, 1); //this.remaining_cards--;
       } else if (this.cards.length == '1') {
         var src_image = this.num_to_src(this.cards[0]);
 
@@ -2878,7 +3428,8 @@ __webpack_require__.r(__webpack_exports__);
             break;
         }
 
-        this.cards = [];
+        this.cards = []; //alert('aaa');
+        //this.remaining_cards = this.remaining_cards - 2;
       } else if (!this.game_briscola_invisible) {
         var src_image_briscola = this.num_to_src(this.game_briscola_rel);
 
@@ -2960,7 +3511,15 @@ __webpack_require__.r(__webpack_exports__);
       return points;
     },
     pc_start: function pc_start() {
-      this.nav_comment = "Have you a nice play!";
+      this.remaining_cards--;
+      /*if (this.remaining_cards == '7' || this.remaining_cards == '6' || this.remaining_cards == '5') {
+          this.nav_comment = "LAST ROUND";
+      } else {
+          //alert(this.remaining_cards + ' 1')
+          this.nav_comment = "Have you a nice play!";
+      }*/
+      //alert(this.remaining_cards);
+
       var pc_rels = [];
       var pc_rels_core = [];
 
@@ -2981,68 +3540,316 @@ __webpack_require__.r(__webpack_exports__);
         pc_rels.push(temp_pc_right);
         pc_rels_core.push(this.pc_right_rel);
       }
-      /*if (this.move_briscola_asso_start(pc_rels, pc_rels_core)) {
+
+      if (this.remaining_cards == 7) {
+        //this.nav_comment = "LAST ROUND";
+        //alert("last round pc start");
+        if (this.assi.includes(this.game_briscola_rel) || this.tre.includes(this.game_briscola_rel) || this.highest_by_sign(this.game_briscola_rel)) {
+          if (this.move_asso_start(pc_rels, pc_rels_core)) {
+            //alert("move_asso_start");
+            return;
+          } else if (this.move_tre_highest_start(pc_rels, pc_rels_core)) {
+            //alert("move_tre_highest_start");
+            return;
+          }
+          /*else if (this.move_tre_no_highest_start(pc_rels, pc_rels_core)) {
+            alert("move_tre_no_highest_start");
+            return;
+          }*/
+          else if (this.move_max_punti_highest_start(pc_rels, pc_rels_core)) {
+              //alert("move_max_punti_highest_start");
+              return;
+            } else if (this.move_max_punti_highest_start(pc_rels, pc_rels_core)) {
+              //alert("move_max_punti_highest_start");
+              return;
+            } else if (this.move_max_punti_start(pc_rels, pc_rels_core)) {
+              //alert("move_max_punti_start");
+              return;
+            } else if (this.move_highest_sign_no_briscola_no_carico_start(pc_rels, pc_rels_core)) {
+              //alert("move_highest_sign_no_briscola_no_carico_start");
+              return;
+            } else if (this.move_scartella_punti_start(pc_rels, pc_rels_core)) {
+              //alert("move_scartella_punti_start");
+              return;
+            } else {}
+        } else {
+          if (this.move_max_punti_highest_start(pc_rels, pc_rels_core)) {
+            //alert("move_max_punti_highest_start");
+            return;
+          } else if (this.move_max_punti_start(pc_rels, pc_rels_core)) {
+            //alert("move_max_punti_start");
+            return;
+          } else if (this.move_highest_sign_no_briscola_no_carico_start(pc_rels, pc_rels_core)) {
+            //alert("move_highest_sign_no_briscola_no_carico_start");
+            return;
+          } else if (this.move_scartella_punti_start(pc_rels, pc_rels_core)) {
+            //alert("move_scartella_punti_start");
+            return;
+          } else if (this.move_tre_highest_start(pc_rels, pc_rels_core)) {
+            //alert("move_tre_highest_start");
+            return;
+          } else if (this.move_asso_start(pc_rels, pc_rels_core)) {
+            //alert("move_asso_start");
+            return;
+          }
+          /* else if (this.move_tre_no_highest_start(pc_rels, pc_rels_core)) {
+             alert("move_tre_no_highest_start");
+             return;
+          }*/
+          else {}
+        }
+      }
+
+      if (this.remaining_cards == 5) {
+        //alert("move_carico_first_last_start");
+        if (this.move_carico_first_last_start(pc_rels, pc_rels_core)) {
+          //alert("move_carico_first_last_start 2");
           return;
-      } else if (this.move_asso_start(pc_rels, pc_rels_core)) {
-          return;
-      } else if (this.move_tre_no_highest_start(pc_rels, pc_rels_core)) {
-          return;
-      } else if (this.move_briscola_asso_start(pc_rels, pc_rels_core)) {
-          return;
-      } else if (this.move_tre_highest_start(pc_rels, pc_rels_core)) {
-          return;
-      } else if (this.move_asso_start(pc_rels, pc_rels_core)) {
-          return;
-      } else {
-          this.pc_random_start(pc_rels);
-      }*/
+        }
+      } //alert("move_carico_first_last_start 3");
 
 
       if (this.move_highest_card_start(pc_rels, pc_rels_core)) {
+        //alert("move_carico_first_last_start 4");
         return;
       } else if (this.move_highest_sign_no_briscola_no_carico_start(pc_rels, pc_rels_core)) {
+        //alert("move_carico_first_last_start 5");
         return;
       } else if (this.move_scartella_punti_start(pc_rels, pc_rels_core)) {
+        //alert("move_carico_first_last_start 6");
         return;
       } else if (this.move_briscola_lower_no_carico_no_highest_start(pc_rels, pc_rels_core)) {
+        //alert("move_carico_first_last_start 7");
         return;
       } else if (this.move_tre_highest_start(pc_rels, pc_rels_core)) {
+        //alert("move_carico_first_last_start 8");
         return;
       } else if (this.move_asso_start(pc_rels, pc_rels_core)) {
+        //alert("move_carico_first_last_start 9");
         return;
       } else if (this.move_tre_no_highest_start(pc_rels, pc_rels_core)) {
+        //alert("move_carico_first_last_start 10");
+        return;
+      } else if (this.move_lowest_briscola(pc_rels)) {
+        //alert("move_carico_first_last_start 11");
         return;
       } else if (this.move_briscola_asso_start(pc_rels, pc_rels_core)) {
+        //alert("move_carico_first_last_start 12");
         return;
       } else {
+        //alert("move_carico_first_last_start 13");
         this.pc_random_start(pc_rels);
       }
     },
-    move_briscola_asso_start: function move_briscola_asso_start(pc_rels, pc_rels_core) {
-      //var briscole_carichi_arr = [];
+    move_carico_first_last_start: function move_carico_first_last_start(pc_rels, pc_rels_core) {
+      var number_carichi = this.find_carichi_length_no_briscola(pc_rels, pc_rels_core);
+      var arr_highest_carichi = this.find_carichi_highest(pc_rels, pc_rels_core);
+      var i = 0;
+      var player_asso_briscola = false;
+
+      for (i = 0; i < this.pc_cards_seen.length; i++) {
+        if (this.briscole.includes(this.pc_cards_seen[i]) && this.assi.includes(this.pc_cards_seen[i])) {
+          player_asso_briscola = true;
+        }
+      }
+
+      var i = 0;
+      var pc_tre_briscola = false;
+      var pc_tre_rel = "100";
+
+      for (i = 0; i < pc_rels_core.length; i++) {
+        if (this.briscole.includes(pc_rels_core[i]) && this.tre.includes(pc_rels_core[i])) {
+          pc_tre_briscola = true;
+          pc_tre_rel = pc_rels_core[i];
+        }
+      } //if (typeof arr_highest_carichi !== 'undefined') {
+
+
+      if (number_carichi > 0 && arr_highest_carichi.length > 0) {
+        var i = 0; //var pc_tre_briscola = false;
+        //var pc_tre_rel = "100";
+
+        for (i = 0; i < arr_highest_carichi.length; i++) {
+          if (!this.has_card_lower_no_briscola(arr_highest_carichi[i])) {
+            //alert('carico because too many carichi and also lower')
+            this.pc_position_invisible_true(pc_rels, arr_highest_carichi[i]);
+            this.pc_game_invisible_false(arr_highest_carichi[i]);
+            return true;
+          }
+        } //alert('carico because too many carichi')
+
+
+        this.pc_position_invisible_true(pc_rels, arr_highest_carichi[0]);
+        this.pc_game_invisible_false(arr_highest_carichi[0]);
+        return true;
+      } //}
+
+
+      if (player_asso_briscola && pc_tre_briscola) {
+        //if(typeof arr_highest_carichi !== 'undefined') {
+        if (number_carichi > 0 && arr_highest_carichi.length > 0) {
+          //alert('carico because tre against asso briscola')
+          this.pc_position_invisible_true(pc_rels, arr_highest_carichi[0]);
+          this.pc_game_invisible_false(arr_highest_carichi[0]);
+          return true;
+        } else {
+          if (this.move_max_punti_highest_start(pc_rels, pc_rels_core)) {
+            //alert('max punti because tre against asso briscola')
+            return true;
+          }
+        } //}
+
+      }
+    },
+    has_card_lower_no_briscola: function has_card_lower_no_briscola(card_to_check) {
+      var sign_card_to_check = this.find_sign(card_to_check);
+
+      if (!this.briscole.includes(card_to_check) && (this.tre.includes(card_to_check) || this.assi.includes(card_to_check))) {
+        var i = 0;
+
+        for (i = 0; i < this.pc_cards_seen.length; i++) {
+          if (this.find_sign(this.pc_cards_seen[i]) == sign_card_to_check && parseInt(this.pc_cards_seen[i]) < parseInt(card_to_check)) {
+            return true;
+          }
+        }
+      }
+      /*var carichi_highest_no_briscola = [];
+      var i = 0;
+      for (i = 0; i < this.pc_rels_core.length; i++) {
+          if (!this.briscole.includes(pc_rels_core[i]) && (this.tre.includes(pc_rels_core[i]) || this.assi.includes(pc_rels_core[ii])) && this.highest_by_sign(pc_rels_core[i])) {
+              return true;
+          }
+      }
+      var ii = 0;
+      for (ii = 0; ii < this.pc_rels_core.length; ii++) {
+          if (!this.briscole.includes(pc_rels_core[ii]) && this.assi.includes(pc_rels_core[ii])) {
+              carichi_highest.push(pc_rels_core[ii]);
+          }
+      }
+      alert(carichi_highest);
+      return carichi_highest;*/
+
+    },
+    find_carichi_highest: function find_carichi_highest(pc_rels, pc_rels_core) {
+      //alert(pc_rels_core);
+      var is_higher_card = this.is_highest_card_by_sign(pc_rels_core);
+      var carichi_highest_arr = [];
       var i = 0;
 
       for (i = 0; i < pc_rels_core.length; i++) {
-        if (this.briscole.includes(pc_rels_core[i]) && this.assi.includes(pc_rels_core[i])) {
-          alert('briscola asso');
+        if (!this.briscole.includes(pc_rels_core[i]) && this.tre.includes(pc_rels_core[i]) && is_higher_card[i]) {
+          carichi_highest_arr.push(pc_rels_core[i]);
+        }
+      } //alert(carichi_highest_arr);
+
+
+      var ii = 0;
+
+      for (ii = 0; ii < pc_rels_core.length; ii++) {
+        if (!this.briscole.includes(pc_rels_core[ii]) && this.assi.includes(pc_rels_core[ii])) {
+          carichi_highest_arr.push(pc_rels_core[ii]);
+        }
+      } //alert(carichi_highest_arr);
+
+
+      return carichi_highest_arr;
+    },
+    find_carichi_length_no_briscola: function find_carichi_length_no_briscola(pc_rels, pc_rels_core) {
+      //alert(pc_rels_core);
+      var carichi_arr = [];
+      var i = 0;
+
+      for (i = 0; i < pc_rels_core.length; i++) {
+        if (!this.briscole.includes(pc_rels_core[i]) && (this.tre.includes(pc_rels_core[i]) || this.assi.includes(pc_rels_core[i]))) {
+          carichi_arr.push(pc_rels_core[i]);
+        }
+      } //alert(carichi_highest_arr);
+
+      /*var ii = 0;
+      for (ii = 0; ii < pc_rels_core.length; ii++) {
+          if (!this.briscole.includes(pc_rels_core[ii]) && this.assi.includes(pc_rels_core[ii])) {
+              carichi_highest_arr.push(pc_rels_core[ii]);
+          }
+      }*/
+      //alert(carichi_highest_arr);
+      //alert(carichi_arr);
+
+
+      return carichi_arr.length;
+    },
+    move_max_punti_highest_start: function move_max_punti_highest_start(pc_rels, pc_rels_core) {
+      var i = 0;
+
+      for (i = 0; i < pc_rels_core.length; i++) {
+        if (!this.briscole.includes(pc_rels_core[i]) && this.re.includes(pc_rels_core[i]) && this.highest_by_sign(pc_rels_core[i])) {
           this.pc_position_invisible_true(pc_rels, pc_rels_core[i]);
           this.pc_game_invisible_false(pc_rels_core[i]);
           return true;
         }
       }
-      /*for (i = 0; i < pc_rels_core.length; i++) {
-          if (this.briscole.includes(pc_rels_core[i]) && this.tre.includes(pc_rels_core[i])) {
-              briscole_carichi_arr.push(pc_rels_core[i]);
-          }
-      }*/
 
-      /*if (briscole_carichi_arr.length > 0) {
-          alert('briscola carico')
-          this.pc_position_invisible_true(pc_rels, briscole_carichi_arr[0]);
-          this.pc_game_invisible_false(briscole_carichi_arr[0]);
+      var ii = 0;
+
+      for (ii = 0; ii < pc_rels_core.length; ii++) {
+        if (!this.briscole.includes(pc_rels_core[ii]) && this.cavalli.includes(pc_rels_core[ii]) && this.highest_by_sign(pc_rels_core[ii])) {
+          this.pc_position_invisible_true(pc_rels, pc_rels_core[ii]);
+          this.pc_game_invisible_false(pc_rels_core[ii]);
           return true;
-      }*/
+        }
+      }
 
+      var iii = 0;
+
+      for (iii = 0; iii < pc_rels_core.length; iii++) {
+        if (!this.briscole.includes(pc_rels_core[iii]) && this.fanti.includes(pc_rels_core[iii]) && this.highest_by_sign(pc_rels_core[iii])) {
+          this.pc_position_invisible_true(pc_rels, pc_rels_core[iii]);
+          this.pc_game_invisible_false(pc_rels_core[iii]);
+          return true;
+        }
+      }
+    },
+    move_max_punti_start: function move_max_punti_start(pc_rels, pc_rels_core) {
+      var i = 0;
+
+      for (i = 0; i < pc_rels_core.length; i++) {
+        if (!this.briscole.includes(pc_rels_core[i]) && this.re.includes(pc_rels_core[i])) {
+          this.pc_position_invisible_true(pc_rels, pc_rels_core[i]);
+          this.pc_game_invisible_false(pc_rels_core[i]);
+          return true;
+        }
+      }
+
+      var ii = 0;
+
+      for (ii = 0; ii < pc_rels_core.length; ii++) {
+        if (!this.briscole.includes(pc_rels_core[ii]) && this.cavalli.includes(pc_rels_core[ii])) {
+          this.pc_position_invisible_true(pc_rels, pc_rels_core[ii]);
+          this.pc_game_invisible_false(pc_rels_core[ii]);
+          return true;
+        }
+      }
+
+      var iii = 0;
+
+      for (iii = 0; iii < pc_rels_core.length; iii++) {
+        if (!this.briscole.includes(pc_rels_core[iii]) && this.fanti.includes(pc_rels_core[iii])) {
+          this.pc_position_invisible_true(pc_rels, pc_rels_core[iii]);
+          this.pc_game_invisible_false(pc_rels_core[iii]);
+          return true;
+        }
+      }
+    },
+    move_briscola_asso_start: function move_briscola_asso_start(pc_rels, pc_rels_core) {
+      var i = 0;
+
+      for (i = 0; i < pc_rels_core.length; i++) {
+        if (this.briscole.includes(pc_rels_core[i]) && this.assi.includes(pc_rels_core[i])) {
+          //alert('briscola asso');
+          this.pc_position_invisible_true(pc_rels, pc_rels_core[i]);
+          this.pc_game_invisible_false(pc_rels_core[i]);
+          return true;
+        }
+      }
     },
     move_asso_start: function move_asso_start(pc_rels, pc_rels_core) {
       var assi_arr = []; //var is_higher_card = this.is_highest_card_by_sign(pc_rels_core);
@@ -3056,7 +3863,7 @@ __webpack_require__.r(__webpack_exports__);
       }
 
       if (assi_arr.length > 0) {
-        alert('asso no briscola');
+        //alert('asso no briscola');
         this.pc_position_invisible_true(pc_rels, assi_arr[0]);
         this.pc_game_invisible_false(assi_arr[0]);
         return true;
@@ -3074,7 +3881,7 @@ __webpack_require__.r(__webpack_exports__);
       }
 
       if (tre_arr.length > 0) {
-        alert('no highest tre');
+        //alert('no highest tre');
         this.pc_position_invisible_true(pc_rels, tre_arr[0]);
         this.pc_game_invisible_false(tre_arr[0]);
         return true;
@@ -3092,7 +3899,7 @@ __webpack_require__.r(__webpack_exports__);
       }
 
       if (tre_arr.length > 0) {
-        alert('highest tre');
+        //alert('highest tre');
         this.pc_position_invisible_true(pc_rels, tre_arr[0]);
         this.pc_game_invisible_false(tre_arr[0]);
         return true;
@@ -3110,8 +3917,8 @@ __webpack_require__.r(__webpack_exports__);
       }
 
       if (briscole_arr.length > 0) {
-        briscole_arr = briscole_arr.sort();
-        alert('lower briscola no carico no highest');
+        briscole_arr = briscole_arr.sort(); //alert('lower briscola no carico no highest')
+
         this.pc_position_invisible_true(pc_rels, briscole_arr[0]);
         this.pc_game_invisible_false(briscole_arr[0]);
         return true;
@@ -3124,7 +3931,7 @@ __webpack_require__.r(__webpack_exports__);
 
         for (i = 0; i <= is_higher_card.length - 1; i++) {
           if (is_higher_card[i] && !this.briscole.includes(pc_rels_core[i])) {
-            alert("it's highest by sign no briscole");
+            //alert("it's highest by sign no briscole");
             this.pc_position_invisible_true(pc_rels, pc_rels_core[i]);
             this.pc_game_invisible_false(pc_rels_core[i]);
             return true;
@@ -3140,7 +3947,7 @@ __webpack_require__.r(__webpack_exports__);
           var i = String(i);
 
           if (this.pc_cards_seen.includes(i)) {
-            alert('yes briscole bastoni');
+            //alert('yes briscole bastoni');
             return true;
           }
         }
@@ -3149,7 +3956,7 @@ __webpack_require__.r(__webpack_exports__);
           var i = String(i);
 
           if (this.pc_cards_seen.includes(i)) {
-            alert('yes briscole spade');
+            //alert('yes briscole spade');
             return true;
           }
         }
@@ -3158,7 +3965,7 @@ __webpack_require__.r(__webpack_exports__);
           var i = String(i);
 
           if (this.pc_cards_seen.includes(i)) {
-            alert('yes briscole denari');
+            //alert('yes briscole denari');
             return true;
           }
         }
@@ -3167,7 +3974,7 @@ __webpack_require__.r(__webpack_exports__);
           var i = String(i);
 
           if (this.pc_cards_seen.includes(i)) {
-            alert('yes briscole coppe');
+            //alert('yes briscole coppe');
             return true;
           }
         }
@@ -3179,7 +3986,7 @@ __webpack_require__.r(__webpack_exports__);
 
       for (i = 0; i <= is_higher_card.length - 1; i++) {
         if (is_higher_card[i] && !this.briscole.includes(pc_rels_core[i]) && !this.tre.includes(pc_rels_core[i]) && !this.assi.includes(pc_rels_core[i])) {
-          alert("it's highest by sign no carico");
+          //alert("it's highest by sign no carico");
           this.pc_position_invisible_true(pc_rels, pc_rels_core[i]);
           this.pc_game_invisible_false(pc_rels_core[i]);
           return true;
@@ -3210,8 +4017,8 @@ __webpack_require__.r(__webpack_exports__);
 
           if (this.pc_cards_seen.includes(temp_max)) {
             if (parseInt(card) > parseInt(temp_max)) {
-              var message = card + temp_max;
-              alert(message);
+              //var message = card + temp_max;
+              //alert(message);
               return true;
             } else {
               return false;
@@ -3224,8 +4031,8 @@ __webpack_require__.r(__webpack_exports__);
 
           if (this.pc_cards_seen.includes(temp_max)) {
             if (parseInt(card) > parseInt(temp_max)) {
-              var message = card + temp_max;
-              alert(message);
+              //var message = card + temp_max;
+              //alert(message);
               return true;
             } else {
               return false;
@@ -3238,8 +4045,8 @@ __webpack_require__.r(__webpack_exports__);
 
           if (this.pc_cards_seen.includes(temp_max)) {
             if (parseInt(card) > parseInt(temp_max)) {
-              var message = card + temp_max;
-              alert(message);
+              //var message = card + temp_max;
+              //alert(message);
               return true;
             } else {
               return false;
@@ -3252,8 +4059,8 @@ __webpack_require__.r(__webpack_exports__);
 
           if (this.pc_cards_seen.includes(temp_max)) {
             if (parseInt(card) > parseInt(temp_max)) {
-              var message = card + temp_max;
-              alert(message);
+              //var message = card + temp_max;
+              //alert(message);
               return true;
             } else {
               return false;
@@ -3267,21 +4074,23 @@ __webpack_require__.r(__webpack_exports__);
         var scartelle_punti_rel = [];
         var i = 0;
 
-        for (i = 0; i <= pc_rels_core.length - 1; i++) {
+        for (i = 0; i < pc_rels_core.length; i++) {
           if ((this.scartelle.includes(pc_rels_core[i]) || this.punti.includes(pc_rels_core[i])) && !this.briscole.includes(pc_rels_core[i])) {
             scartelle_punti_rel.push(pc_rels_core[i]);
           }
-        }
+        } //alert(scartelle_punti_rel);
 
-        var card_play = this.less_carichi_above(scartelle_punti_rel);
+
+        var card_play = this.less_carichi_above(scartelle_punti_rel); //alert( card_play + '99');
+
         this.pc_position_invisible_true(pc_rels, card_play);
-        this.pc_game_invisible_false(card_play);
-        alert("start scartella or punti");
+        this.pc_game_invisible_false(card_play); //alert("start scartella or punti");
+
         return true;
       }
     },
     less_carichi_above: function less_carichi_above(cards_arr) {
-      var cards_carichi_ab = this.find_carichi_above(cards_arr);
+      var cards_carichi_ab = this.find_carichi_above(cards_arr); //alert(cards_carichi_ab);
 
       if (cards_carichi_ab.length == '1') {
         return cards_arr[0];
@@ -3298,20 +4107,20 @@ __webpack_require__.r(__webpack_exports__);
           }
         }
       } else {
-        alert('tre');
+        //alert('tre');
         var rel_card = "";
         var rel_value = 100;
 
         if (cards_carichi_ab.includes(0)) {
-          alert('contains 0');
+          //alert('contains 0');
           var i = 0;
 
-          for (i = 0; i <= cards_carichi_ab.length - 1; i++) {
+          for (i = 0; i < cards_carichi_ab.length; i++) {
             if (cards_carichi_ab[i] === 0) {
-              alert(cards_arr);
+              //alert(cards_arr);
               var temp_value = this.real_value_card(cards_arr[i]);
 
-              if (temp_value > rel_value) {
+              if (temp_value < rel_value) {
                 rel_card = cards_arr[i];
                 rel_value = temp_value;
               }
@@ -3320,12 +4129,12 @@ __webpack_require__.r(__webpack_exports__);
 
           return rel_card;
         } else if (cards_carichi_ab.includes(1)) {
-          alert('contains 1 ok');
+          //alert('contains 1 ok');
           var i = 0;
 
           for (i = 0; i <= cards_carichi_ab.length - 1; i++) {
             if (cards_carichi_ab[i] === 1) {
-              alert(cards_arr);
+              //alert(cards_arr);
               var temp_value = this.real_value_card(cards_arr[i]);
 
               if (temp_value < rel_value) {
@@ -3337,11 +4146,11 @@ __webpack_require__.r(__webpack_exports__);
 
           return rel_card;
         } else {
-          alert('contains 2 ok');
+          //alert('contains 2 ok');
           var i = 0;
 
           for (i = 0; i <= cards_carichi_ab.length - 1; i++) {
-            alert(cards_arr);
+            //alert(cards_arr);
             var temp_value = this.real_value_card(cards_arr[i]);
 
             if (temp_value < rel_value) {
@@ -3405,14 +4214,14 @@ __webpack_require__.r(__webpack_exports__);
     check_scartelle_punti: function check_scartelle_punti(pc_rels_core) {
       var i = 0;
 
-      for (i = 0; i <= pc_rels_core.length - 1; i++) {
+      for (i = 0; i < pc_rels_core.length; i++) {
         if ((this.scartelle.includes(pc_rels_core[i]) || this.punti.includes(pc_rels_core[i])) && !this.briscole.includes(pc_rels_core[i])) {
           return true;
         }
       }
     },
     pc_random_start: function pc_random_start(pc_rels) {
-      alert('random start');
+      //alert('random start');
       var arr_len = pc_rels.length;
       var arr_num = Math.floor(Math.random() * arr_len);
       var pc_arr_invisible = pc_rels[arr_num];
@@ -3586,7 +4395,7 @@ __webpack_require__.r(__webpack_exports__);
 
         default:
           var message = 'uncorrect src ' + number;
-          alert(message);
+        //alert(message);
       }
 
       return src_image;
@@ -3757,13 +4566,124 @@ __webpack_require__.r(__webpack_exports__);
 
         default:
           var message = 'uncorrect real value' + number;
-          alert(message);
+        //alert(message);
       }
 
       return real_value;
+    },
+    assign_win: function assign_win() {
+      if (this.player_points > this.pc_points) {
+        this.player_win++;
+        this.calculate_level_player();
+      } else if (this.player_points < this.pc_points) {
+        this.pc_win++;
+        this.calculate_level_player();
+      } else {
+        this.player_win++;
+        this.pc_win++;
+        return;
+      }
+    },
+    change_state_to_three: function change_state_to_three() {
+      this.assign_win();
+      this.state = '3';
+    },
+    calculate_level_player: function calculate_level_player() {
+      var win_level = this.player_win - this.pc_win; //alert(win_level);
+
+      var win_level_human = "so so";
+
+      if (win_level > 5) {
+        win_level = 5;
+      }
+
+      if (win_level < -5) {
+        win_level = -5;
+      }
+
+      switch (win_level) {
+        case 1:
+          win_level_human = "wisdom";
+          break;
+
+        case 2:
+          win_level_human = "very wisdom";
+          break;
+
+        case 3:
+          win_level_human = "master";
+          break;
+
+        case 4:
+          win_level_human = "evangelist";
+          break;
+
+        case 5:
+          win_level_human = "charismatic leader";
+          break;
+
+        case -1:
+          win_level_human = "unwisdom";
+          break;
+
+        case -2:
+          win_level_human = "very unwisdom";
+          break;
+
+        case -3:
+          win_level_human = "noob";
+          break;
+
+        case -4:
+          win_level_human = "incompetent";
+          break;
+
+        case -5:
+          win_level_human = "the worst";
+          break;
+
+        default:
+          win_level_human = "so so";
+      }
+
+      this.level_player = win_level_human;
+    },
+    match_is_over: function match_is_over() {
+      var _this2 = this;
+
+      if (this.remaining_cards == '0' || this.remaining_cards == '-1') {
+        //this.match_finished = true;
+        this.remaining_cards = 0; //this.calculate_level_player();
+
+        setTimeout(function () {
+          _this2.change_state_to_three();
+        }, 3000);
+        this.remaining_cards = 40;
+      }
+    },
+    handle_bg_color: function handle_bg_color() {
+      if (this.state == '1') {
+        this.color_chosen = 'bg_state_1';
+        document.body.className = this.color_chosen;
+      } else if (this.state == '2') {
+        this.color_chosen = 'bg_state_2';
+        document.body.className = this.color_chosen;
+      } else {
+        this.color_chosen = 'bg_state_1';
+        document.body.className = this.color_chosen;
+      }
     }
   },
-  computed: {}
+  watch: {
+    remaining_cards: {
+      handler: 'match_is_over',
+      immediate: true
+    },
+    state: {
+      handler: 'handle_bg_color',
+      immediate: true
+    }
+  }
 });
 
 /***/ }),
@@ -3796,10 +4716,20 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 /* harmony default export */ __webpack_exports__["default"] = ({
+  props: ['footer_score'],
   data: function data() {
     return {
-      copyright: "Powered by Michele Della Mea"
+      copyright: "Powered by Michele's labs" //state: state,
+
     };
+  },
+  computed: {
+    // a computed getter
+    score_footer: function score_footer() {
+      // `this` points to the vm instance
+      //return this.message.split('').reverse().join('')
+      return this.state;
+    }
   }
 });
 
@@ -3836,8 +4766,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = ({
   props: ['remaining_cards', 'nav_comment'],
   data: function data() {
-    return {
-      title: "Vue ninjas"
+    return {//title: "Vue ninjas"
     };
   }
 });
@@ -39957,141 +40886,326 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c(
-    "div",
-    [
-      _c("app-header", {
-        attrs: {
-          nav_comment: _vm.nav_comment,
-          remaining_cards: _vm.remaining_cards
-        }
-      }),
-      _vm._v(" "),
-      _c(
-        "div",
-        { staticClass: "row justify-content-center align-items-center mt-2" },
-        [
-          _c("img", {
-            class: { card: true, invisible: _vm.pc_left_invisible },
-            attrs: {
-              src: "images/retro.jpg",
-              id: "pc_left",
-              rel: _vm.pc_left_rel
-            }
-          }),
-          _vm._v(" "),
-          _c("img", {
-            class: { card: true, invisible: _vm.pc_center_invisible },
-            attrs: {
-              src: "images/retro.jpg",
-              id: "pc_center",
-              rel: _vm.pc_center_rel
-            }
-          }),
-          _vm._v(" "),
-          _c("img", {
-            class: { card: true, invisible: _vm.pc_right_invisible },
-            attrs: {
-              src: "images/retro.jpg",
-              id: "pc_right",
-              rel: _vm.pc_right_rel
-            }
-          })
-        ]
-      ),
-      _vm._v(" "),
-      _c("div", { staticClass: "row mt-2" }, [
-        _c("div", { staticClass: "col-3 d-flex justify-content-start pl-5" }, [
-          _c("img", {
-            class: { card: true, invisible: _vm.pack_cards_invisible },
-            attrs: { src: "images/retro.jpg", id: "pack_cards", rel: "0" }
-          })
-        ]),
+  return _vm.state === "1"
+    ? _c("div", [
+        _vm._m(0),
         _vm._v(" "),
-        _c("div", { staticClass: "col-6 d-flex justify-content-center" }, [
-          _c("img", {
-            class: { card: true, invisible: _vm.pc_game_invisible },
-            attrs: { src: _vm.pc_game_src, id: "pc_game", rel: _vm.pc_game_rel }
-          }),
-          _vm._v(" "),
-          _c("img", {
-            class: { card: true, invisible: _vm.player_game_invisible },
-            attrs: {
-              src: _vm.player_game_src,
-              id: "player_game",
-              rel: _vm.player_game_rel
-            }
-          })
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "col-3 d-flex justify-content-end pr-5" }, [
-          _c("img", {
-            class: { card: true, invisible: _vm.game_briscola_invisible },
-            attrs: {
-              src: _vm.game_briscola_src,
-              id: "game_briscola",
-              rel: _vm.game_briscola_rel
-            }
-          })
+        _c("div", { staticClass: "container h-100" }, [
+          _c(
+            "div",
+            {
+              staticClass: "row h-100 justify-content-center align-items-center"
+            },
+            [
+              _c("form", { staticClass: "col-6 col-sm-4 text-center" }, [
+                _c(
+                  "h2",
+                  { staticClass: "text-warning display-5 font-italic" },
+                  [_vm._v("Insert your name:")]
+                ),
+                _vm._v(" "),
+                _c("input", {
+                  directives: [
+                    {
+                      name: "model",
+                      rawName: "v-model.trim",
+                      value: _vm.name_user,
+                      expression: "name_user",
+                      modifiers: { trim: true }
+                    }
+                  ],
+                  staticClass: "form-control mt-4",
+                  staticStyle: { "font-weight": "bold" },
+                  attrs: {
+                    type: "text",
+                    id: "pname",
+                    name: "pname",
+                    maxlength: "10"
+                  },
+                  domProps: { value: _vm.name_user },
+                  on: {
+                    input: function($event) {
+                      if ($event.target.composing) {
+                        return
+                      }
+                      _vm.name_user = $event.target.value.trim()
+                    },
+                    blur: function($event) {
+                      return _vm.$forceUpdate()
+                    }
+                  }
+                }),
+                _vm._v(" "),
+                _c("input", {
+                  staticClass: "btn btn-warning mt-4 font-weight-bold",
+                  attrs: { type: "button", value: "Play the game" },
+                  on: {
+                    click: function($event) {
+                      return _vm.change_state("2")
+                    }
+                  }
+                })
+              ])
+            ]
+          )
         ])
-      ]),
-      _vm._v(" "),
-      _c(
+      ])
+    : _vm.state === "2"
+    ? _c(
         "div",
-        { staticClass: "row justify-content-center align-items-center mt-2" },
         [
-          _c("img", {
-            class: { card: true, invisible: _vm.player_left_invisible },
+          _c("app-header", {
             attrs: {
-              src: _vm.player_left_src,
-              id: "player_left",
-              rel: _vm.player_left_rel
-            },
-            on: {
-              click: function($event) {
-                return _vm.play($event)
-              }
+              nav_comment: _vm.nav_comment,
+              remaining_cards: _vm.remaining_cards
             }
           }),
           _vm._v(" "),
-          _c("img", {
-            class: { card: true, invisible: _vm.player_center_invisible },
-            attrs: {
-              src: _vm.player_center_src,
-              id: "player_center",
-              rel: _vm.player_center_rel
+          _c(
+            "div",
+            {
+              staticClass: "row justify-content-center align-items-center mt-2"
             },
-            on: {
-              click: function($event) {
-                return _vm.play($event)
-              }
-            }
-          }),
+            [
+              _c("img", {
+                class: { card: true, invisible: _vm.pc_left_invisible },
+                attrs: {
+                  src: "images/retro.jpg",
+                  id: "pc_left",
+                  rel: _vm.pc_left_rel
+                }
+              }),
+              _vm._v(" "),
+              _c("img", {
+                class: { card: true, invisible: _vm.pc_center_invisible },
+                attrs: {
+                  src: "images/retro.jpg",
+                  id: "pc_center",
+                  rel: _vm.pc_center_rel
+                }
+              }),
+              _vm._v(" "),
+              _c("img", {
+                class: { card: true, invisible: _vm.pc_right_invisible },
+                attrs: {
+                  src: "images/retro.jpg",
+                  id: "pc_right",
+                  rel: _vm.pc_right_rel
+                }
+              })
+            ]
+          ),
           _vm._v(" "),
-          _c("img", {
-            class: { card: true, invisible: _vm.player_right_invisible },
-            attrs: {
-              src: _vm.player_right_src,
-              id: "player_right",
-              rel: _vm.player_right_rel
+          _c("div", { staticClass: "row mt-2" }, [
+            _c(
+              "div",
+              { staticClass: "col-3 d-flex justify-content-start pl-5" },
+              [
+                _c("img", {
+                  class: { card: true, invisible: _vm.pack_cards_invisible },
+                  attrs: { src: "images/retro.jpg", id: "pack_cards", rel: "0" }
+                })
+              ]
+            ),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-6 d-flex justify-content-center" }, [
+              _c("img", {
+                class: { card: true, invisible: _vm.pc_game_invisible },
+                attrs: {
+                  src: _vm.pc_game_src,
+                  id: "pc_game",
+                  rel: _vm.pc_game_rel
+                }
+              }),
+              _vm._v(" "),
+              _c("img", {
+                class: { card: true, invisible: _vm.player_game_invisible },
+                attrs: {
+                  src: _vm.player_game_src,
+                  id: "player_game",
+                  rel: _vm.player_game_rel
+                }
+              })
+            ]),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "col-3 d-flex justify-content-end pr-5" },
+              [
+                _c("img", {
+                  class: { card: true, invisible: _vm.game_briscola_invisible },
+                  attrs: {
+                    src: _vm.game_briscola_src,
+                    id: "game_briscola",
+                    rel: _vm.game_briscola_rel
+                  }
+                })
+              ]
+            )
+          ]),
+          _vm._v(" "),
+          _c(
+            "div",
+            {
+              staticClass: "row justify-content-center align-items-center mt-2"
             },
-            on: {
-              click: function($event) {
-                return _vm.play($event)
-              }
-            }
-          }),
+            [
+              _c("img", {
+                class: { card: true, invisible: _vm.player_left_invisible },
+                attrs: {
+                  src: _vm.player_left_src,
+                  id: "player_left",
+                  rel: _vm.player_left_rel
+                },
+                on: {
+                  click: function($event) {
+                    return _vm.play($event)
+                  }
+                }
+              }),
+              _vm._v(" "),
+              _c("img", {
+                class: { card: true, invisible: _vm.player_center_invisible },
+                attrs: {
+                  src: _vm.player_center_src,
+                  id: "player_center",
+                  rel: _vm.player_center_rel
+                },
+                on: {
+                  click: function($event) {
+                    return _vm.play($event)
+                  }
+                }
+              }),
+              _vm._v(" "),
+              _c("img", {
+                class: { card: true, invisible: _vm.player_right_invisible },
+                attrs: {
+                  src: _vm.player_right_src,
+                  id: "player_right",
+                  rel: _vm.player_right_rel
+                },
+                on: {
+                  click: function($event) {
+                    return _vm.play($event)
+                  }
+                }
+              })
+            ]
+          ),
           _vm._v(" "),
-          _c("p", [_vm._v(_vm._s(_vm.pc_cards_seen))])
-        ]
-      ),
-      _vm._v(" "),
-      _c("app-footer", { attrs: { remaining_cards: _vm.remaining_cards } })
-    ],
-    1
-  )
+          _c("app-footer", { attrs: { footer_score: _vm.footer_score } })
+        ],
+        1
+      )
+    : _c("div", [
+        _c("div", { staticClass: "container h-100" }, [
+          _c(
+            "h1",
+            {
+              staticClass:
+                "text-warning display-3 font-italic text-center mt-2 font-weight-bold"
+            },
+            [_vm._v("GAME FINISHED")]
+          ),
+          _vm._v(" "),
+          _c(
+            "div",
+            {
+              staticClass: "row h-100 justify-content-center align-items-center"
+            },
+            [
+              _c(
+                "div",
+                {
+                  staticClass:
+                    "col-sm-8 col-sm-offset-2 text-center mt-5 text-warning"
+                },
+                [
+                  _c(
+                    "h2",
+                    {
+                      staticClass:
+                        "display-5 text-primary font-italic  font-weight-bold"
+                    },
+                    [_vm._v("FINAL RESULT")]
+                  ),
+                  _vm._v(" "),
+                  _c("h3", { staticClass: "display-5 text-primary" }, [
+                    _vm._v(_vm._s(_vm.final_score))
+                  ]),
+                  _vm._v(" "),
+                  _c(
+                    "h2",
+                    {
+                      staticClass:
+                        "display-5 text-danger font-italic  font-weight-bold mt-3"
+                    },
+                    [_vm._v("CURRENT SCORE")]
+                  ),
+                  _vm._v(" "),
+                  _c("h3", { staticClass: "display-5 text-danger" }, [
+                    _vm._v(_vm._s(_vm.footer_score))
+                  ]),
+                  _vm._v(" "),
+                  _c(
+                    "h2",
+                    {
+                      staticClass:
+                        "display-5 text-info font-italic  font-weight-bold mt-3"
+                    },
+                    [_vm._v("YOUR LEVEL")]
+                  ),
+                  _vm._v(" "),
+                  _c("h3", { staticClass: "display-5 text-info" }, [
+                    _vm._v(_vm._s(_vm.level_player))
+                  ])
+                ]
+              )
+            ]
+          ),
+          _vm._v(" "),
+          _c("div", { staticClass: "container h-100" }, [
+            _c(
+              "div",
+              {
+                staticClass:
+                  "row h-100 justify-content-center align-items-center mt-5 mb-1"
+              },
+              [
+                _c("input", {
+                  staticClass: "btn btn-warning mt-4 font-weight-bold btn-lg",
+                  attrs: { type: "button", value: "Play again" },
+                  on: {
+                    click: function($event) {
+                      return _vm.change_state_restart()
+                    }
+                  }
+                })
+              ]
+            )
+          ])
+        ])
+      ])
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "jumbotron jumbotron-fluid bg-dark" }, [
+      _c("div", { staticClass: "container" }, [
+        _c(
+          "h1",
+          {
+            staticClass: "text-success text-center display-2 font-weight-bold"
+          },
+          [_vm._v("BRISCOLAPP")]
+        )
+      ])
+    ])
+  }
+]
 render._withStripped = true
 
 
@@ -40117,7 +41231,9 @@ var render = function() {
     _c("footer", { staticClass: "bg-dark fixed-bottom" }, [
       _c("div", { staticClass: "container" }, [
         _c("div", { staticClass: "row mt-3" }, [
-          _vm._m(0),
+          _c("div", { staticClass: "col-sm-6 text-left" }, [
+            _c("p", [_vm._v(_vm._s(_vm.footer_score))])
+          ]),
           _vm._v(" "),
           _c("div", { staticClass: "col-sm-6 text-right" }, [
             _c("p", [_vm._v(_vm._s(_vm.copyright))])
@@ -40127,16 +41243,7 @@ var render = function() {
     ])
   ])
 }
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "col-sm-6 text-left" }, [
-      _c("p", [_vm._v("Guest is playing")])
-    ])
-  }
-]
+var staticRenderFns = []
 render._withStripped = true
 
 
@@ -52377,6 +53484,13 @@ Vue.component('app-footer', __webpack_require__(/*! ./components/Footer.vue */ "
 
 var app = new Vue({
   el: '#app'
+  /*handleColorChoice() {
+      //this.color = this.colorChosen;
+      this.color = "red";
+      document.body.className = this.color;
+      this.$root.$emit('body-background-color', this.colorChosen);
+  }*/
+
 });
 
 /***/ }),
@@ -52705,8 +53819,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\xampp\htdocs\briscola\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\xampp\htdocs\briscola\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! C:\xampp\htdocs\briscolapp\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\xampp\htdocs\briscolapp\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

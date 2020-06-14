@@ -4,7 +4,7 @@
             <div class="container">
                 <div class="row mt-3">
                     <div class="col-sm-6 text-left">
-                        <p>Guest is playing</p>
+                        <p>{{ footer_score }}</p>
                     </div>
                     <div class="col-sm-6 text-right">
                         <p>{{ copyright }}</p>
@@ -18,9 +18,19 @@
 
 <script>
     export default {
+        props: ['footer_score'],
         data() {
             return {
-                copyright: "Powered by Michele Della Mea"
+                copyright: "Powered by Michele's labs",
+                //state: state,
+            }
+        },
+        computed: {
+            // a computed getter
+            score_footer: function () {
+            // `this` points to the vm instance
+                //return this.message.split('').reverse().join('')
+                return this.state;
             }
         }
     }

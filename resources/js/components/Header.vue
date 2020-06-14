@@ -23,7 +23,7 @@
         props: ['remaining_cards', 'nav_comment'],
         data() {
             return {
-                title: "Vue ninjas"
+                //title: "Vue ninjas"
             }
         }
     }

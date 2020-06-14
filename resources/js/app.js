@@ -34,4 +34,10 @@ Vue.component('app-footer', require('./components/Footer.vue').default);
 
 const app = new Vue({
     el: '#app',
+    /*handleColorChoice() {
+        //this.color = this.colorChosen;
+        this.color = "red";
+        document.body.className = this.color;
+        this.$root.$emit('body-background-color', this.colorChosen);
+    }*/
 });
